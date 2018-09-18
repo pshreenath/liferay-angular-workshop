@@ -1,0 +1,4 @@
+Bundle-Name: REN Angular 6 Demo Portlet
+Bundle-SymbolicName: com.liferay.angular.workshop
+Bundle-Version: 1.0.0
+Web-ContextPath: /angular-six-demo
