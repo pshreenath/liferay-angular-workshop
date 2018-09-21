@@ -14,7 +14,7 @@ import org.osgi.service.component.annotations.Component;
 @Component(
 	immediate = true,
 	property = {
-		"com.liferay.portlet.display-category=Sample", "com.liferay.portlet.instanceable=true",
+		"com.liferay.portlet.display-category=Angular", "com.liferay.portlet.instanceable=true",
 		"javax.portlet.display-name=Angular 6 Demo", "javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/view.jsp",
 		"javax.portlet.name=" + AngularSixDemoPortletKeys.ANGULAR6_DEMO, "javax.portlet.resource-bundle=content.Language",
