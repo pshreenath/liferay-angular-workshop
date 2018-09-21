@@ -1,0 +1,4 @@
+Bundle-Name: LSNA - NPM Angular Demo Portlet
+Bundle-SymbolicName: com.liferay.lsna.npm.angular.demo
+Bundle-Version: 1.0.0
+Web-ContextPath: /npm-angular-demo
