@@ -9,7 +9,7 @@ import javax.portlet.Portlet;
 import org.osgi.service.component.annotations.Component;
 
 /**
- * @author Douglas Prandini
+ * @author Prathima Shreenath
  */
 @Component(
 	immediate = true,
