@@ -39,7 +39,7 @@
 		"rxjs-tslint": "^0.1.5"
 	},
 	"devDependencies": {
-		"liferay-npm-bundler": "2.1.1"
+		"liferay-npm-bundler": "2.2.0"
 	},
 	"main": "bootstrap.js",
 	"name": "npm-angular6-provider",
