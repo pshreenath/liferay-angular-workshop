@@ -1,0 +1,4 @@
+Bundle-Name: LSNA - Http Client Demo Portlet
+Bundle-SymbolicName: com.liferay.lsna.httpclient.demo
+Bundle-Version: 1.0.0
+Web-ContextPath: /http-client-demo
