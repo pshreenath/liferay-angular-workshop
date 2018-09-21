@@ -1,4 +1,4 @@
-Bundle-Name: REN Angular 6 Demo Portlet
-Bundle-SymbolicName: com.liferay.angular.workshop
+Bundle-Name: LSNA - Angular Provider Demo Portlet
+Bundle-SymbolicName: com.liferay.lsna.angular.demo
 Bundle-Version: 1.0.0
 Web-ContextPath: /angular-six-demo
