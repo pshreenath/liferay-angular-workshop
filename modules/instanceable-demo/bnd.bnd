@@ -1,0 +1,4 @@
+Bundle-Name: LSNA - Instanceable Demo Portlet
+Bundle-SymbolicName: com.liferay.lsna.instanceable.demo
+Bundle-Version: 1.0.0
+Web-ContextPath: /instanceable-demo
