@@ -12,8 +12,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(
+			routes,
+			{useHash: true, enableTracing: false}
+			)],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }
 export const routingComponents = [ArticleListComponent, DocumentListComponent, PageNotFoundComponent]
