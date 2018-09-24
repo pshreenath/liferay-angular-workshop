@@ -1,0 +1,4 @@
+Bundle-Name: LSNA - Routing Demo Portlet
+Bundle-SymbolicName: com.liferay.lsna.routing.demo
+Bundle-Version: 1.0.0
+Web-ContextPath: /routing-demo
