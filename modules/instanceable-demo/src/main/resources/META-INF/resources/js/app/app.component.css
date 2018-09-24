@@ -1,0 +1,11 @@
+.old-fashioned-font {
+	font-family: monospace;
+}
+
+#urlField {
+	width: 85%;
+}
+
+#responseArea {
+	width: 100%;
+}
