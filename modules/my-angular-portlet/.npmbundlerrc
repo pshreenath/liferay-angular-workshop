@@ -1,0 +1,9 @@
+{
+	"create-jar": {
+		"auto-deploy-portlet": true,
+		"web-context-path": "/my-angular-portlet",
+		"output-dir": "build"
+	},
+	"dump-report": true,
+	"process-serially": true
+}

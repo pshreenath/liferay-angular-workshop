@@ -1,0 +1,16 @@
+{
+	"liferayDir": "/Users/pshreenath/projects/poc/lsna/liferay-angular-workshop/bundles",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\/.*\\.ts$",
+				"use": "ts-loader"
+			}
+		],
+		"extensions": [
+			".ts",
+			".js"
+		],
+		"mainModule": "index.ts"
+	}
+}
