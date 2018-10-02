@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {APP_BASE_HREF} from "@angular/common";
+
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {GlobalVariablesService} from "../services/global-variables.service";
 
 @NgModule({
-	imports: [BrowserModule],
-	declarations: [AppComponent],
+	imports: [BrowserModule, AppRoutingModule],
+	declarations: [AppComponent, routingComponents],
 	entryComponents: [AppComponent],
 	bootstrap: [], // Don't bootstrap any component statically (see ngDoBootstrap() below)
-	providers: [],
+	providers: [GlobalVariablesService, {provide: APP_BASE_HREF, useValue: '/'}],
 })
 export class AppModule {
-	// Avoid bootstraping any component statically because we need to attach to
-	// the portlet's DOM, which is different for each portlet instance and,
-	// thus, cannot be determined until the page is rendered (during runtime).
 	ngDoBootstrap() {}
 }

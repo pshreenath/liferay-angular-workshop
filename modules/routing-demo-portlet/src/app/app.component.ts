@@ -7,4 +7,5 @@ import LiferayParams from '../types/LiferayParams'
 })
 export class AppComponent {
 	params: LiferayParams;
+	title = 'Routing Demo';
 }
