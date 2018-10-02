@@ -1,0 +1,9 @@
+{
+	"create-jar": {
+		"auto-deploy-portlet": true,
+		"web-context-path": "/http-client-demo",
+		"output-dir": "build"
+	},
+	"dump-report": true,
+	"process-serially": true
+}
