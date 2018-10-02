@@ -9,3 +9,5 @@
  */
 export default function init() {
 }
+
+console.log('Bootstrapped angular-npm-provider');
