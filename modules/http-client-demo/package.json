@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "HTTP Client Demo",
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.0.0",
+		"liferay-npm-bundler": "^2.4.0",
 		"liferay-npm-build-support": "^2.0.0",
 		"copy-webpack-plugin": "^4.0.0",
 		"webpack": "^4.0.0",
