@@ -1,6 +1,12 @@
-<form ngForm="form" (ngSubmit)="submit()">
-	<input id="urlField" type="text" [(ngModel)]="url" name="url" placeholder="Input your request url here ..." />
+<form class="customForm" ngForm="form" (ngSubmit)="submit()">
+	<input class="urlField" type="text" [(ngModel)]="url" name="url" placeholder="Input your request url here ..." />
 	<button class="btn btn-primary" type="submit">Get Response</button>
+</form>
+
+<form class="customForm" ngForm="form" (ngSubmit)="addFolder()">
+	<input class="urlField" type="text" [(ngModel)]="folderName" name="folderName"
+				 placeholder="Enter the name of folder you want to create..." />
+	<button class="btn btn-primary" type="submit">Add Folder</button>
 </form>
 
 <br>
@@ -10,3 +16,4 @@
 	</div>
 	<textarea id="responseArea" cols="100" name="json" rows="10" [(ngModel)]="json"></textarea>
 </div>
+
