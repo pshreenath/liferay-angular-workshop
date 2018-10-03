@@ -1,8 +1,2 @@
-.tag {
-	font-weight: bold;
-}
-
-.value {
-	font-style: italic;
-}
+@import "app.component.css";
 
