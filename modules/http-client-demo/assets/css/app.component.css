@@ -2,7 +2,11 @@
 	font-family: monospace;
 }
 
-#urlField {
+.customForm {
+	margin-top: 15px;
+}
+
+.urlField {
 	width: 85%;
 }
 
