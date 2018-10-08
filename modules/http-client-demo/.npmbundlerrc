@@ -2,7 +2,7 @@
 	"create-jar": {
 		"auto-deploy-portlet": true,
 		"web-context-path": "/http-client-demo",
-		"output-dir": "build"
+		"output-dir": "dist"
 	},
 	"dump-report": true,
 	"exclude": {
